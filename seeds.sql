@@ -46,25 +46,25 @@ VALUES (9, "IT Manager", 105000, 4);
 ----- Employees Seeds -----
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (4, "Joe", "Skewis", 3, null);
+VALUES (4, "Charbelle", "Chazz", 3, null);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (5, "Dave", "Hofferbert", 4, null);
+VALUES (5, "Sofi", "Hernan", 4, null);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (7, "Matt", "Decker", 6, null);
+VALUES (7, "Char", "Dant", 6, null);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (10, "John", "Lennon", 9, null);
+VALUES (10, "Jonathan", "Uong", 9, null);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (3, "Paul", "McCartney", 2, 4);
+VALUES (3, "Melissa", "Arm", 2, 4);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (1, "Allan", "Loucks", 1, 3);
+VALUES (1, "Alla", "Arous", 1, 3);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (2, "Ted", "Nugent", 1, 3);
+VALUES (2, "Rosie", "Cole", 1, 3);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
 VALUES (6, "Lianne", "Soon", 5, 7);
