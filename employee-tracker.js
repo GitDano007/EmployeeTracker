@@ -36,7 +36,7 @@ function mainMenu(){
       type: "list",
       message: "MAIN MENU",
       choices: [
-        "View all employees",
+        "view all employees",
         "View all employees by role",
         "View all employees by department",
         "View all employees by manager",
