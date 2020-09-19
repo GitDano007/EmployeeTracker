@@ -10,8 +10,6 @@ Installation:
 (Optional) Run `seeds.sql` in MySQLWorkbench
 3. Edit MySQL connection properties in the `connectionProperties` object in `employee-tracker.js`
 
-Usage:
-1. Run `node employee-tracker.js` to start the application
-2. Select from the menu to view, add, remove, or update employees, roles, departments, or managers
+
 
    
