@@ -1,16 +1,18 @@
-const mysql = require("mysql");
-const inquirer = require("inquirer");
-const consoleTable = require("console.table");
-const promisemysql = require("promise-mysql");
 
 
-const connectionProperties = {
-    host: "localhost",
-    port: 3306,
-    user: "root",
-    password: "password",
-    database: "employees_DB"
-}
+    const mysql = require("mysql");
+        const inquirer = require("inquirer");
+                    const consoleTable = require("console.table");
+            const promisemysql = require("promise-mysql");
+
+
+            const connectionProperties = {
+                host: "localhost",
+                port: 3306,
+                user: "root",
+                password: "password",
+                database: "employees_DB"
+            }
 
 
 const connection = mysql.createConnection(connectionProperties);
@@ -24,7 +26,7 @@ connection.connect((err) => {
 
 
 
-    console.log("\n WELCOME TO EMPLOYEE TRACKER \n");
+    console.log("\n Employee Tracker \n");
     mainMenu();
 });
 
@@ -32,15 +34,15 @@ connection.connect((err) => {
 function mainMenu(){
 
 
-    inquirer
-    .prompt({
-      name: "action",
-      type: "list",
-      message: "MAIN MENU",
-      choices: [
-        "View all employees",
-        "View all employees by role",
-        "View all employees by department",
+        inquirer
+        .prompt({
+        name: "action",
+        type: "list",
+        message: "MAIN MENU",
+        choices: [
+        "view all employees",
+        "view all employees by their role",
+        "view employees by department",
         "View all employees by manager",
         "Add employee",
         "Add role",
@@ -58,15 +60,15 @@ function mainMenu(){
 
 
         switch (answer.action) {
-            case "View all employees":
+            case "view all employees":
                 viewAllEmp();
                 break;
 
-            case "View all employees by department":
+            case "view employees by department":
                 viewAllEmpByDept();
                 break;
 
-            case "View all employees by role":
+            case "view all employees by their role":
                 viewAllEmpByRole();
                 break;
 
