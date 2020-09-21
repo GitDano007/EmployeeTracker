@@ -10,6 +10,6 @@ Installation:
 (Optional) Run `seeds.sql` in MySQLWorkbench
 3. Edit MySQL connection properties in the `connectionProperties` object in `employee-tracker.js`
 
-View Video Demo here: https://www.youtube.com/watch?v=Iyiolsd21bY
+
 
    
