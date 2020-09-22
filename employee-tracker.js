@@ -43,15 +43,15 @@
         "view all employees by their role",
         "view employees by department",
         "View all employees by manager",
-        "Add employee",
-        "Add role",
-        "Add department",
-        "Update employee role",
-        "Update employee manager",
-        "Delete employee",
-        "Delete role",
-        "Delete department",
-        "View department budgets"
+        "add an employee",
+        "add a role",
+        "add a department",
+        "update the employee role",
+        "update the employee manager",
+        "delete an employee",
+        "delete a role",
+        "delete a department",
+        "view the department budgets"
       ]
             })
             .then((answer) => {
@@ -71,35 +71,35 @@
                 viewAllEmpByRole();
                 break;
 
-            case "Add employee":
+            case "add an employee":
                 addEmp();
                 break;
 
-            case "Add department":
+            case "add a department":
                 addDept();
                 break;
-            case "Add role":
+            case "add a role":
                 addRole();
                 break;
-            case "Update employee role":
+            case "update the employee role":
                 updateEmpRole();
                 break;
-            case "Update employee manager":
+            case "update the employee manager":
                 updateEmpMngr();
                 break;
             case "View all employees by manager":
                 viewAllEmpByMngr();
                 break;
-            case "Delete employee":
+            case "delete an employee":
                 deleteEmp();
                 break;
-            case "View department budgets":
+            case "view the department budgets":
                 viewDeptBudget();
                 break;
-            case "Delete role":
+            case "delete a role":
                 deleteRole();
                 break;
-            case "Delete department":
+            case "delete a department":
                 deleteDept();
                 break;
         }
